@@ -1,0 +1,14 @@
+import pandas as pd
+
+excel1 = 'Resp Budget Report - 70100-7410 - 2019-11-30.xlsx'
+excel2 = 'Resp Budget Report - 70100-7251 - 2019-11-30.xlsx'
+excel3 = 'Resp Budget Report - 70100-8225 - 2019-11-30.xlsx'
+excel4 = 'Resp Budget Report - 70100-4651 - 2019-11-30.xlsx'
+
+df1 = pd.read_excel(excel1)
+df2 = pd.read_excel(excel2)
+df3 = pd.read_excel(excel3)
+df4 = pd.read_excel(excel4)
+
+print(df1)
+
